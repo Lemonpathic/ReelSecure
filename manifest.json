@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Simple Q&A Extension",
+    "version": "1.0",
+    "description": "A simple Chrome extension for asking and answering questions using OpenAI.",
+    "permissions": [
+        "activeTab",
+        "https://api.openai.com/"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
