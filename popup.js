@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('submit').addEventListener('click', function () {
         // Get the API key from the input field
-        var apiKey = document.getElementById('apiKey').value;
-
+        var apiKey = ''
         // Get the URL of the current tab
         chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
             var currentTab = tabs[0];
@@ -44,7 +43,7 @@ function getOpenAIResponse(question, apiKey) {
     })
         .then(response => response.json())
         .then(data => {
-            alert('OpenAI Response:\n' + data.choices[0].text);
+            alert('ReelSafe Response:\n' + data.choices[0].text);
         })
         .catch(error => console.error('Error:', error));
 }
