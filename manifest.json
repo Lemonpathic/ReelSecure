@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Reel Secure"
+    "name": "Reel Secure",
     "version": "1.0",
     "description": "Keeping you reel secure from phishing attacks!",
     "permissions": [
