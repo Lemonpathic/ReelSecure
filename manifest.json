@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Simple Q&A Extension",
+    "name": "Reel Secure"
     "version": "1.0",
-    "description": "A simple Chrome extension for asking and answering questions using OpenAI.",
+    "description": "Keeping you reel secure from phishing attacks!",
     "permissions": [
         "activeTab",
         "https://api.openai.com/"
