@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
 
             // Append the URL to the question
-            var question = "How legit does this site seem? " + textContent + " URL: " + currentUrl;
+            var question = "Only Give me a Percentage of how legit you think this site is " + textContent + " URL: " + currentUrl;
 
             // Send the question to OpenAI API
             getOpenAIResponse(question, apiKey);
