@@ -1,3 +1,4 @@
+// Added alot of other sites
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('submit').addEventListener('click', function () {
         // Get the API key from the input field
