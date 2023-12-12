@@ -1,5 +1,5 @@
 // content.js
-
+// Fixed issues
 // Function to send a request to the OpenAI API
 function sendToOpenAI(question, apiKey, callback) {
     // Define the OpenAI API endpoint
